@@ -1,0 +1,323 @@
+
+
+
+	     	     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	     	     !!                                                             !!
+	     	     !!                   !! FCIS says HELLO !!                     !!
+	     	     !!                                                             !!
+	     	     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+Physical memory: 32768K available, base = 640K, extended = 31744K
+Max Envs = 1379
+check_boot_pgdir() succeeded!
+
+Welcome to the FOS kernel command prompt!
+Type 'help' for a list of commands.
+FOS> fififo
+Page replacement algorithm is now FIFO
+FOS> run tfifo2 9
+
+Environment Id= 4096
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 201000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 2 = 202000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 3 = 203000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 4 = 204000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 5 = 205000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 7 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 202000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 3 = 203000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 4 = 204000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 5 = 205000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 7 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 3 = 203000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 4 = 204000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 5 = 205000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 7 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 204000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 5 = 205000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 7 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 5 = 205000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0
+address @ 7 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 6 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 0 <--
+address @ 7 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 0
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 7 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 0 <--
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 80e000, used= 1, modified= 0, buffered= 0, time stamp= 80000000 <--
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000 <--
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 80000000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 80000000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 80001000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 80000000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 80001000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 80002000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 805000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 80000000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 80001000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 80002000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 4 = 80003000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+EMPTY LOCATION	     	     <--
+EMPTY LOCATION
+EMPTY LOCATION
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+EMPTY LOCATION	     	     <--
+EMPTY LOCATION
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+EMPTY LOCATION	     	     <--
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 5 = 806000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 6 = 807000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 7 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000 <--
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 80c000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 80c000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 8 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 801000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 1 = 808000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 80c000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 8 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = eebfd000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 2 = 803000, used= 1, modified= 1, buffered= 0, time stamp= 80000000 <--
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 80c000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 8 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+-=====================================================
+---------------------------------------------------
+PAGE WS:
+address @ 0 = 801000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 1 = eebfd000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 2 = 80f000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+address @ 3 = 804000, used= 1, modified= 0, buffered= 0, time stamp= 80000000 <--
+address @ 4 = 809000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 5 = 80a000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 6 = 80b000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 7 = 80c000, used= 1, modified= 1, buffered= 0, time stamp= 80000000
+address @ 8 = 800000, used= 1, modified= 0, buffered= 0, time stamp= 80000000
+-=====================================================

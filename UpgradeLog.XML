@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="fos">
+</Property><Property Name="Solution File" Value="F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.sln">
+</Property><Property Name="User Options File" Value="F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.suo">
+</Property><Property Name="Date" Value="Sunday, April 08, 2012">
+</Property><Property Name="Time" Value="21:02 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="fos.sln" Description="File successfully backed up as F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="fos.suo" Description="File successfully backed up as F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.suo.old">
+</Event><Event ErrorLevel="0" Project="fos" Source="fos.vcproj" Description="Converting project file 'F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.vcproj'.">
+</Event><Event ErrorLevel="1" Project="fos" Source="fos.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="fos" Source="fos.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="fos" Source="fos.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="fos" Source="fos.vcproj" Description="Done converting to new project file 'F:\COURSES\OS 2011\[OS'11] PROJECT MATERIALS\FOS_PROJECT_2011_TA_final_after_correction_free_mem\FOS_PROJECT_2011_TA_final\fos.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="fos" Source="fos.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="fos.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="fos.sln" Description="Converted">
+</Event></UpgradeLog>
