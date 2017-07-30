@@ -1,6 +1,6 @@
 # FOS
-Fcis OS is a like MIT_JOS 
-the change mainly made in the Memory Managment Part
+Fcis OS is a like [MIT_JOS](https://pdos.csail.mit.edu/6.828/2014/overview.html),  [github](https://github.com/successar/JOS)<br/>
+the change mainly made in the Memory Managment Part<br/>
 what is Done ?
 + Kernel Heap<br/>
     -free<br/>
